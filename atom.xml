@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>�ڿ��Ĳ���</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://www.guzhipin.top/"/>
   <updated>2019-04-12T14:29:15.032Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://www.guzhipin.top/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>�ڿ�</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>测试文章</title>
-    <link href="http://yoursite.com/2019/04/12/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2019/04/12/测试文章/</id>
+    <link href="http://www.guzhipin.top/2019/04/12/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <id>http://www.guzhipin.top/2019/04/12/测试文章/</id>
     <published>2019-04-12T14:29:15.000Z</published>
     <updated>2019-04-12T14:29:15.032Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/04/12/hello-world/"/>
-    <id>http://yoursite.com/2019/04/12/hello-world/</id>
+    <link href="http://www.guzhipin.top/2019/04/12/hello-world/"/>
+    <id>http://www.guzhipin.top/2019/04/12/hello-world/</id>
     <published>2019-04-12T14:20:41.946Z</published>
     <updated>2019-04-12T14:20:41.946Z</updated>
     
