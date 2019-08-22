@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="quekai&#39;s blog">
 <meta property="og:description" content="Python数据挖掘入门与实践第一章 开始数据挖掘之旅1.1 数据挖掘简介 数据集主要包括以下两个部分： 表示真实世界中物体的样本。 描述数据集中样本的特征。  特征抽取是数据挖掘过程的一个重要环节。   1.2 使用Python和IPython Notebook pip3 freeze命令测试pip能否正常运行。 只为当前用户安装ipython 可用命令 pip install --user i">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-08-04T15:16:22.280Z">
+<meta property="og:updated_time" content="2019-08-22T15:18:35.103Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python数据挖掘入门与实践">
 <meta name="twitter:description" content="Python数据挖掘入门与实践第一章 开始数据挖掘之旅1.1 数据挖掘简介 数据集主要包括以下两个部分： 表示真实世界中物体的样本。 描述数据集中样本的特征。  特征抽取是数据挖掘过程的一个重要环节。   1.2 使用Python和IPython Notebook pip3 freeze命令测试pip能否正常运行。 只为当前用户安装ipython 可用命令 pip install --user i">
@@ -1167,7 +1167,6 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">nb_predict</span><span class="params">(model, document)</span>:</span></span><br><span class="line">    words = word_search_re.findall(document)</span><br><span class="line">    probabilities = defaultdict(<span class="keyword">lambda</span> : <span class="number">0</span>)</span><br><span class="line">    <span class="keyword">for</span> word <span class="keyword">in</span> set(words):</span><br><span class="line">        probabilities[<span class="string">"male"</span>] += np.log(model[word].get(<span class="string">"male"</span>, <span class="number">1e-5</span>))</span><br><span class="line">        probabilities[<span class="string">"female"</span>] += np.log(model[word].get(<span class="string">"female"</span>, <span class="number">1e-5</span>))</span><br><span class="line">    <span class="comment"># Now find the most likely gender</span></span><br><span class="line">    most_likely_genders = sorted(probabilities.items(), key=itemgetter(<span class="number">1</span>), reverse=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> most_likely_genders[<span class="number">0</span>][<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<p><a href="http://www.guzhipin.top/2019/08/04/Python%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5/">http://www.guzhipin.top/2019/08/04/Python%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5/</a></p>
 
       
 
